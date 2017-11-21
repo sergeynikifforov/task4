@@ -1,4 +1,6 @@
-package main 
+package main
+import "fmt"
+import "unicode"
 func RemoveEven(a []int)[]int {
     s:=make([]int,0,1000)
     for _,v := range a {
